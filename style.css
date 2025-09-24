@@ -133,15 +133,16 @@
 
 .movie-head{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size:medium;
+    font-size:large;
     font-weight: 600;
-    color: rgb(40, 39, 39);
+    color: rgb(10, 10, 10);
 }
 
 .movie-para{
     padding-top: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size:medium;
+    font-weight: 400;
     color: rgb(111, 111, 111);
 }
 
@@ -212,7 +213,7 @@
 
 .premier-cards{
     width: 230px;
-    height:480px;
+    height:420px;
 }
 
 .premier-img{
@@ -237,4 +238,53 @@
     font-size:16px;
     font-weight: 500;
     color:white;
+}
+
+.music-main-head{
+    padding-top: 30px;
+    display: flex;
+    justify-content:start;
+    gap: 870px;
+    padding-left: 150px;
+}
+
+.yourmusic{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:smaller;
+    color: rgb(54, 54, 54);
+}
+
+.music-main-cards{
+    padding-top: 10px;
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+}
+
+.music-cards{
+    width: 230px;
+    height:520px;
+}
+
+.music-img{
+    text-align: center;
+}
+   
+.music-img img{
+    border-radius: 10px;
+}
+
+.music-head{
+    padding-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:large;
+    font-weight: 600;
+    color: rgb(27, 26, 26);
+}
+
+.music-para{
+    padding-top: 7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:medium;
+    color: rgb(111, 111, 111);
 }
