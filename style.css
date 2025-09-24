@@ -4,7 +4,7 @@
 }
 
 .header{
-    padding-top: 50px;
+    padding-top: 10px;
     display: flex;
     gap: 400px;
     justify-content: center;
@@ -26,4 +26,18 @@
     width: 500px;
     height: 35px;
     border: 1px solid rgb(206, 203, 203);
+}
+
+.place-opt select{
+    border: none;
+    outline: none;
+}
+
+.sign-in button{
+    width: 60px;
+    height: 25px;
+    background-color: rgb(253, 83, 83);
+    color: white;
+    border: none;
+    border-radius: 5px;
 }
