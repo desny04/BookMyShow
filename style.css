@@ -263,7 +263,7 @@
 
 .music-cards{
     width: 230px;
-    height:520px;
+    height:570px;
 }
 
 .music-img{
@@ -286,5 +286,60 @@
     padding-top: 7px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size:medium;
+    color: rgb(111, 111, 111);
+}
+
+.outdoor-sec{
+    background-color: rgb(232, 231, 231);
+    width: 100%;
+    height: 80vh;
+}
+
+.outdoor-main-head{
+    padding-top: 30px;
+    display: flex;
+    justify-content:start;
+    gap: 980px;
+    padding-left: 150px;
+}
+
+.outdoor{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:smaller;
+    color: rgb(54, 54, 54);
+}
+
+.outdoor-main-cards{
+    padding-top: 10px;
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+}
+
+.outdoor-cards{
+    width: 230px;
+    height:480px;
+}
+
+.outdoor-img{
+    text-align: center;
+}
+   
+.outdoor-img img{
+    border-radius: 10px;
+}
+
+.outdoor-head{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:large;
+    font-weight: 600;
+    color: rgb(10, 10, 10);
+}
+
+.outdoor-para{
+    padding-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:medium;
+    font-weight: 400;
     color: rgb(111, 111, 111);
 }
