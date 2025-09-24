@@ -160,6 +160,7 @@
 
 .live-main-cards{
     padding-top: 10px;
+    padding-bottom: 40px;
     display: flex;
     justify-content:center;
     gap: 30px;
@@ -172,4 +173,68 @@
 
 .live-cards img{
     border-radius: 20px;
+}
+
+.fifth-sec{
+    background-color: rgb(45, 48, 76);
+    height: 90vh;
+}
+
+.premier-head-img{
+    padding-left: 120px;
+}
+
+.premier-head-main{
+    padding-top: 30px;
+    display: flex;
+    justify-content:start;
+    gap: 940px;
+    padding-left: 150px;
+}
+
+.premiers{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:smaller;
+    color:white;
+}
+
+.premiers-para{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.premier-main-cards{
+    padding-top: 10px;
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+}
+
+.premier-cards{
+    width: 230px;
+    height:480px;
+}
+
+.premier-img{
+    text-align: center;
+}
+   
+.premier-img img{
+    border-radius: 10px;
+}
+
+.premier-head{
+    padding-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:large;
+    font-weight: 600;
+    color:white;
+}
+
+.premier-para{
+    padding-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:16px;
+    font-weight: 500;
+    color:white;
 }
