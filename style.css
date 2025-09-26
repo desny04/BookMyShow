@@ -6,22 +6,22 @@
 .nav{
     padding-top: 15px;
     padding-bottom: 10px;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-left: 0px;
+    padding-right: 0px;
     display: flex;
-    gap: 200px;
+    gap:280px;
     justify-content: center;
 }
 
 .nav-left{
     display: flex;
-    gap: 40px;
+    gap: 30px;
 }
 
 .nav-right{
     display: flex;
     justify-content:flex-end;
-    gap: 50px;
+    gap: 30px;
     text-align: end;
 }
 
@@ -65,6 +65,7 @@
     gap: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size:14px;
+    font-weight: 400;
     color: rgb(48, 48, 48);
 }
 
@@ -75,6 +76,7 @@
     text-align: end;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size:12px;
+    font-weight: 400;
     color: rgb(48, 48, 48);
 }
 
@@ -108,7 +110,7 @@
 }
 
 .seeall{
-    color: red;
+    color: rgb(253, 83, 83);;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-top:20px;
     font-size: smaller;
@@ -593,4 +595,598 @@
     font-size:medium;
     font-weight: 400;
     color: rgb(111, 111, 111);
+}
+
+.trend-main-head{
+    padding-top: 100px;
+    padding-left: 140px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:smaller;
+    color: rgb(54, 54, 54);
+}
+
+.search-button-one{
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    padding-top: 30px;
+    padding-left: 150px;
+}
+
+.trend button{
+    background: none;
+    border: 1px solid rgb(230, 229, 229);
+    border-radius: 3px;
+}
+
+.balti button{
+    width: 120px;
+    height: 70px;
+}
+
+.lokah button{
+    width: 270px;
+    height: 70px;
+}
+
+.karam button{
+    width: 120px;
+    height: 70px;
+}
+
+.kantara button{
+    width: 270px;
+    height: 70px;
+}
+
+.callhim button{
+    width: 200px;
+    height: 70px;
+}
+
+button .red-head{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(253, 83, 83);
+    font-size:17px;
+    font-weight:500;
+    text-align: left;
+    padding-left: 12px;
+}
+
+button .grey-para{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(99, 97, 97);
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 12px;
+}
+
+.search-button-two{
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 150px;
+}
+
+.demon button{
+    width: 420px;
+    height: 70px;
+}
+
+.kushi button{
+    width: 150px;
+    height: 70px;
+}
+
+.hridaya button{
+    width: 180px;
+    height: 70px;
+}
+
+.grey-bg{
+    width: 100%;
+    height: 30px;
+    background-color:rgb(232, 231, 231);
+}
+
+.contact{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    gap:270px;
+    justify-content:start;
+    background-color: rgb(51, 51, 57);
+    height: 56px;
+    align-items: center;
+}
+
+.contact-left{
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    padding-left: 140px;
+}
+
+.list-head{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:medium;
+    font-weight: bold;
+    padding-top: 6px;
+}
+
+.list-para{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 6px;
+}
+
+.contact-right button{
+    width: 140px;
+    height: 42px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:medium;
+    background-color: rgb(252, 95, 95);
+    border: none;
+    border-radius: 4px;
+}
+
+.customer-page{
+    background-color:rgb(249, 247, 247);
+    height: 130px;
+}
+
+.customer-main-card{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.customer-card p{
+    padding-top: 10px;
+    font-size:x-small;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.customer-card p:hover{
+   color: rgb(97, 97, 97);
+}
+
+.customer-card{
+    text-align: center;    
+}
+
+.last-page{
+    background-color: rgb(51, 51, 56);
+    height: 250vh;
+}
+
+.movies-now-show{
+    padding-left: 140px;
+    padding-top: 25px;
+}
+
+.movies-now-show-head{
+    color: rgb(185, 184, 184);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:12px;
+}
+
+.movies-show-para-one{
+    padding-top: 20px;
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(120, 120, 121);
+    font-size:12px;
+}
+
+.movies-show-para-two{
+    padding-top: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(120, 120, 121);
+    font-size:12px;
+}
+
+.para-hover:hover{
+    color: white;
+}
+
+
+.upcoming-movies{
+    padding-left: 140px;
+    padding-top: 25px;
+}
+
+.upcoming-movies-head{
+    color: rgb(185, 184, 184);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:12px;
+}
+
+.upcoming-movies-para{
+    padding-top: 20px;
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(120, 120, 121);
+    font-size:12px;
+}
+
+
+.movies-genre{
+    padding-left: 140px;
+    padding-top: 25px;
+}
+
+.movies-genre-head{
+    color: rgb(185, 184, 184);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:12px;
+}
+
+.movies-genre-para{
+    padding-top: 20px;
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(120, 120, 121);
+    font-size:12px;
+}
+
+.movies-lang{
+    padding-left: 140px;
+    padding-top: 25px;
+}
+
+.movies-lang-head{
+    color: rgb(185, 184, 184);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:12px;
+}
+
+.movies-lang-para{
+    padding-top: 20px;
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(120, 120, 121);
+    font-size:12px;
+}
+
+.sports-event{
+    padding-left: 140px;
+    padding-top: 25px;
+}
+
+.sports-event-head{
+    color: rgb(185, 184, 184);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:12px;
+}
+
+.sports-event-para{
+    padding-top: 20px;
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(120, 120, 121);
+    font-size:12px;
+}
+
+.top-cities-event{
+    padding-left: 140px;
+    padding-top: 25px;
+}
+
+.top-cities-event-head{
+    color: rgb(185, 184, 184);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:12px;
+}
+
+.top-cities-event-para{
+    padding-top: 20px;
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(120, 120, 121);
+    font-size:12px;
+}
+
+.top-cities-cinema{
+    padding-left: 140px;
+    padding-top: 25px;
+}
+
+.top-cities-cinema-head{
+    color: rgb(185, 184, 184);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:12px;
+}
+
+.top-cities-cinema-para{
+    padding-top: 20px;
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(120, 120, 121);
+    font-size:12px;
+}
+
+.top-cities-play{
+    padding-left: 140px;
+    padding-top: 25px;
+}
+
+.top-cities-play-head{
+    color: rgb(185, 184, 184);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:12px;
+}
+
+.top-cities-play-para{
+    padding-top: 20px;
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(120, 120, 121);
+    font-size:12px;
+}
+
+.top-cities-activ{
+    padding-left: 140px;
+    padding-top: 25px;
+}
+
+.top-cities-activ-head{
+    color: rgb(185, 184, 184);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:12px;
+}
+
+.top-cities-activ-para{
+    padding-top: 20px;
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(120, 120, 121);
+    font-size:12px;
+}
+
+.movies-now-show-two{
+    padding-left: 140px;
+    padding-top: 25px;
+}
+
+.movies-now-show-two-head{
+    color: rgb(185, 184, 184);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:12px;
+}
+
+.movies-now-show-two-para{
+    padding-top: 20px;
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(120, 120, 121);
+    font-size:12px;
+}
+
+.countries{
+    padding-left: 140px;
+    padding-top: 25px;
+}
+
+.countries-head{
+    color: rgb(185, 184, 184);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:12px;
+}
+
+.countries-para{
+    padding-top: 20px;
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(120, 120, 121);
+    font-size:12px;
+}
+
+.help{
+    padding-left: 140px;
+    padding-top: 25px;
+}
+
+.help-head{
+    color: rgb(185, 184, 184);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:12px;
+}
+
+.help-para{
+    padding-top: 20px;
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(120, 120, 121);
+    font-size:12px;
+}
+
+.exclusive{
+    padding-left: 140px;
+    padding-top: 25px;
+}
+
+.exclusive-head{
+    color: rgb(185, 184, 184);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:12px;
+}
+
+.exclusive-para{
+    padding-top: 20px;
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(120, 120, 121);
+    font-size:12px;
+}
+
+.icc-women{
+    padding-left: 140px;
+    padding-top: 25px;
+}
+
+.icc-women-head{
+    color: rgb(185, 184, 184);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:12px;
+}
+
+.icc-women-para{
+    padding-top: 20px;
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(120, 120, 121);
+    font-size:12px;
+}
+
+.cwc-team-india{
+    padding-left: 140px;
+    padding-top: 25px;
+}
+
+.cwc-team-india-head{
+    color: rgb(185, 184, 184);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:12px;
+}
+
+.cwc-team-india-para-one{
+    padding-top: 20px;
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(120, 120, 121);
+    font-size:12px;
+}
+
+.cwc-team-india-para-two{
+    padding-top: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(120, 120, 121);
+    font-size:12px;
+}
+
+.cwc-team-srilanka{
+    padding-left: 140px;
+    padding-top: 25px;
+}
+
+.cwc-team-srilanka-head{
+    color: rgb(185, 184, 184);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:12px;
+}
+
+.cwc-team-srilanka-para-one{
+    padding-top: 20px;
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(120, 120, 121);
+    font-size:12px;
+}
+
+.cwc-team-srilanka-para-two{
+    padding-top: 6px;
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(120, 120, 121);
+    font-size:12px;
+}
+
+.cwc-venue-india{
+    padding-left: 140px;
+    padding-top: 25px;
+}
+
+.cwc-venue-india-head{
+    color: rgb(185, 184, 184);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:12px;
+}
+
+.cwc-venue-india-para{
+    padding-top: 20px;
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(120, 120, 121);
+    font-size:12px;
+}
+
+.cwc-venue-srilanka{
+    padding-left: 140px;
+    padding-top: 25px;
+}
+
+.cwc-venue-srilanka-head{
+    color: rgb(185, 184, 184);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:12px;
+}
+
+.cwc-venue-srilanka-para{
+    padding-top: 20px;
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(120, 120, 121);
+    font-size:12px;
+}
+
+.bookmyshow-icon-last img{
+    text-align: center;
+}
+
+.copyright{
+    padding-top: 150px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(120, 120, 121);
+    font-size:11px;
+    text-align: center;
 }
