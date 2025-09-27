@@ -766,7 +766,7 @@ button .grey-para{
 
 .last-page{
     background-color: rgb(51, 51, 56);
-    height: 250vh;
+    height: 240vh;
 }
 
 .movies-now-show{
@@ -791,6 +791,8 @@ button .grey-para{
 }
 
 .movies-show-para-two{
+    display: flex;
+    justify-content: start;
     padding-top: 6px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(120, 120, 121);
@@ -1098,6 +1100,8 @@ button .grey-para{
 }
 
 .cwc-team-india-para-two{
+    display: flex;
+    justify-content: start;
     padding-top: 6px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(120, 120, 121);
@@ -1181,12 +1185,18 @@ button .grey-para{
     text-align: center;
 }
 
+.app-icons{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
 .copyright{
-    padding-top: 150px;
+    padding-top: 50px;
     padding-left: 30px;
     padding-right: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(120, 120, 121);
-    font-size:11px;
+    font-size:71%;
     text-align: center;
 }
