@@ -1181,11 +1181,31 @@ button .grey-para{
     font-size:12px;
 }
 
-.bookmyshow-icon-last img{
-    text-align: center;
+.line-1{
+    border: 1px solid rgb(120, 120, 121);
+    height: 0px;
+    width: 700px;
+
+}
+.line-2{
+    border: 1px solid rgb(120, 120, 121);
+    height: 0px;
+    width:700px;
+}
+
+.linee{
+    padding-top: 70px;
+    display: flex; 
+    gap: 10px;   
+}
+
+.linee img{
+    position: relative;
+    top: -20px;
 }
 
 .app-icons{
+    padding-top: 30px;
     display: flex;
     justify-content: center;
     gap: 15px;
